@@ -245,9 +245,10 @@ span {
   );
   position: relative;
   z-index: 1;
-  height: 650px;
+  /* height: 650px; */
   padding-top: 100px;
   margin-top: -50px;
+  padding-bottom: 20px;
 }
 #projects img {
   margin: 2px;
@@ -283,6 +284,7 @@ span {
   justify-content: space-evenly;
   margin: 0 auto;
   margin-top: -20px;
+  margin-bottom: 50px;
   z-index: 3;
   position: relative;
   background-color: black;
@@ -316,6 +318,15 @@ span {
   flex-direction: column;
   justify-content: center;
   width: 140px;
+}
+#dom {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  border: solid 3px black;
+  background-color: gold;
+  margin-bottom: 15px;
 }
 #used img {
   margin-top: -10px;
@@ -494,6 +505,10 @@ footer {
 }
 .iconContainer a {
   color: white;
+}
+.iconContainer a:hover {
+  color: cadetblue;
+  transition: 0.5s;
 }
 .icon {
   font-size: 55px;
@@ -792,7 +807,8 @@ footer {
   }
 
   #projects {
-    height: 650px;
+    /* height: 650px; */
+    margin-bottom: 30px;
   }
   #headpro {
     color: black;
